@@ -248,7 +248,7 @@ Kemudian ketik:
 
     pyinstaller --onefile tugas_py.py
 
-Penjelasan:
+# Penjelasan:
 
 --onefile: menghasilkan satu file .exe saja.
 
@@ -272,7 +272,7 @@ Klik 2x pada tugas_py.exe di folder dist, atau jalankan via CMD:
 # ✅ SOLUSI: Gunakan Python untuk Panggil pip
 Coba jalankan ini dulu di CMD:
 
-python -m pip install pyinstaller
+    python -m pip install pyinstaller
 
 Kalau python tidak dikenali, coba:
 
