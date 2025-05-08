@@ -169,7 +169,7 @@ Buka Command Prompt (CMD).
 
 Masuk ke folder:
 
-    cd D:\Downloads\tugas_py
+    cd D:\Downloads\Pothole alert
 Jalankan file Python:
 
     python pothole_alert.py
@@ -257,11 +257,11 @@ Tunggu sampai selesai.
    
 Masuk ke folder tempat file kamu:
 
-       cd D:\Downloads\tugas_py
+       cd D:\Downloads\Pothole alert
    
 Kemudian ketik:
 
-    pyinstaller --onefile tugas_py.py
+    pyinstaller --onefile pothole_alert.py
 
 # Penjelasan:
 
@@ -275,14 +275,14 @@ Setelah proses selesai:
 
 File .exe kamu akan ada di folder:
 
-    D:\Downloads\tugas_py\dist\tugas_py.exe
+    D:\Downloads\tugas_py\dist\Pothole alert.exe
 
 5. Jalankan .exe
 
 Klik 2x pada tugas_py.exe di folder dist, atau jalankan via CMD:
 
     cd dist
-    tugas_py.exe
+    Pothole alert.exe
 
 # ✅ SOLUSI: Gunakan Python untuk Panggil pip
 Coba jalankan ini dulu di CMD:
@@ -340,7 +340,7 @@ Tunggu proses install selesai.
 
 Misalnya kamu punya file tugas_py.py di folder:
 
-    D:\Downloads\tugas_py
+    D:\Downloads\Pothole alert
 
 Lakukan langkah ini:
 
@@ -348,11 +348,11 @@ Buka Command Prompt (CMD)
 
 Masuk ke folder:
 
-    cd D:\Downloads\tugas_py
+    cd D:\Downloads\Pothole alert
 
 Jalankan perintah:
 
-    pyinstaller --onefile tugas_py.py
+    pyinstaller --onefile pothole_alert.py
 
 Kalau berhasil, nanti muncul folder baru bernama dist. Di dalamnya ada file ini:
 
@@ -365,4 +365,35 @@ Kamu bisa klik 2x atau jalankan dari CMD:
 
 Kalau kamu ingin exe-nya tidak muncul jendela CMD (khusus untuk aplikasi GUI), bisa pakai:
 
-    pyinstaller --onefile --noconsole tugas_py.py
+    pyinstaller --onefile --noconsole pothole_alert.py
+
+# Catatan Penting:
+
+# 🛠️ Cara Instalasi
+Install Python dari
+
+    https://www.python.org/
+
+Buka terminal / CMD, lalu jalankan:
+
+    pip install opencv-python numpy Pillow
+# 🚀 Cara Menjalankan Aplikasi
+Simpan file pothole_alert.py di folder proyek.
+
+Jalankan dengan perintah:
+
+    python pothole_alert.py
+Klik tombol “Pilih Gambar” di GUI.
+
+Gambar yang dideteksi akan ditampilkan dan disimpan otomatis ke folder output/.
+
+# 📤 Distribusi sebagai Aplikasi (.exe)
+
+Untuk membuat versi .exe, gunakan perintah:
+
+    pyinstaller --onefile pothole_alert.py
+File .exe akan tersedia di folder dist/.
+
+🌐 Dokumentasi Kode Sumber (GitHub)
+Semua kode sumber dan dokumentasi dapat diakses secara publik melalui repositori berikut:
+[🔗 https://github.com/mohamadfarisfadil/Pothole-alert](https://github.com/mohamadfarisfadil/Pothole-alert/tree/main)
