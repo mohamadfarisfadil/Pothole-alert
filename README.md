@@ -313,56 +313,41 @@ Setelah itu, kamu bisa jalankan:
 # ✅ Kalau Kamu Sudah Bisa Jalankan Python
 Ketik ini di CMD:
 
-bash
-Copy
-Edit
-python -m pip install pyinstaller
+    python -m pip install pyinstaller
+
 Atau kalau pakai py:
 
-bash
-Copy
-Edit
-py -m pip install pyinstaller
+    py -m pip install pyinstaller
+
 Tunggu proses install selesai.
 
 ✅ Setelah Itu: Ubah .py Jadi .exe
+
 Misalnya kamu punya file tugas_py.py di folder:
 
-makefile
-Copy
-Edit
-D:\Downloads\tugas_py
+    D:\Downloads\tugas_py
+
 Lakukan langkah ini:
 
 Buka Command Prompt (CMD)
 
 Masuk ke folder:
 
-bash
-Copy
-Edit
-cd D:\Downloads\tugas_py
+    cd D:\Downloads\tugas_py
+
 Jalankan perintah:
 
-bash
-Copy
-Edit
-pyinstaller --onefile tugas_py.py
+    pyinstaller --onefile tugas_py.py
+
 Kalau berhasil, nanti muncul folder baru bernama dist. Di dalamnya ada file ini:
 
-Copy
-Edit
-tugas_py.exe
+    tugas_py.exe
+
 Kamu bisa klik 2x atau jalankan dari CMD:
 
-bash
-Copy
-Edit
-cd dist
-tugas_py.exe
+    cd dist
+    tugas_py.exe
+
 Kalau kamu ingin exe-nya tidak muncul jendela CMD (khusus untuk aplikasi GUI), bisa pakai:
 
-bash
-Copy
-Edit
-pyinstaller --onefile --noconsole tugas_py.py
+    pyinstaller --onefile --noconsole tugas_py.py
