@@ -119,7 +119,7 @@ Berikut adalah kode lengkap Python untuk aplikasi PotholeAlert yang mendeteksi l
     numpy
     Pillow
   # Folder: output
-# Link gambar untuk testing: https://github.com/mohamadfarisfadil/Pothole-alert/blob/main/4248289897.jpg?raw=true
+# Link gambar untuk testing: https://raw.githubusercontent.com/mohamadfarisfadil/Pothole-alert/refs/heads/main/4248289897.jpg
 
 # PotholeAlert: Aplikasi Deteksi Lubang Jalan Berbasis Citra Drone
 
