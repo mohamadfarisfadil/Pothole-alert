@@ -161,7 +161,21 @@ Cara Running Python di Terminal/CMD Windows:
     Lanjutkan dengan install modul yang dibutuhkan:
    
        pip install opencv-python numpy Pillow
+# Cara Running Project Python di Terminal/CMD Windows:
 
+1. Langkah Lengkap:
+Buka Command Prompt (CMD).
+
+Masuk ke folder:
+
+    cd D:\Downloads\tugas_py
+Jalankan file Python:
+
+    python pothole_alert.py
+Kalau python masih tidak dikenali, kamu juga bisa coba ini:
+
+    py pothole_alert.py
+    
 # Kalau Tetap Gagal Bisa Ikuti Tutorial Di Bawah Ini!:
 
 # 💡 Sementara, ini solusi umum tergantung masalahmu:
