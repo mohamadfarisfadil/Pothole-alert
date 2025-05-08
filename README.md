@@ -164,6 +164,7 @@ Cara Running Python di Terminal/CMD Windows:
 # Cara Running Project Python di Terminal/CMD Windows:
 
 1. Langkah Lengkap:
+   
 Buka Command Prompt (CMD).
 
 Masuk ke folder:
