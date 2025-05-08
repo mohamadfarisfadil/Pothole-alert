@@ -118,7 +118,8 @@ Berikut adalah kode lengkap Python untuk aplikasi PotholeAlert yang mendeteksi l
     opencv-python
     numpy
     Pillow
-
+  # Folder: output
+# Link gambar untuk testing: https://github.com/mohamadfarisfadil/Pothole-alert/blob/main/4248289897.jpg?raw=true
 
 # PotholeAlert: Aplikasi Deteksi Lubang Jalan Berbasis Citra Drone
 
