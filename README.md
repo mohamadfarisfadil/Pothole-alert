@@ -397,3 +397,8 @@ File .exe akan tersedia di folder dist/.
 🌐 Dokumentasi Kode Sumber (GitHub)
 Semua kode sumber dan dokumentasi dapat diakses secara publik melalui repositori berikut:
 [🔗 https://github.com/mohamadfarisfadil/Pothole-alert](https://github.com/mohamadfarisfadil/Pothole-alert/tree/main)
+
+# Link Video Tutorial:
+[![Watch the video](https://img.youtube.com/vi/wtS_2cNP4z8/maxresdefault.jpg)](https://youtu.be/wtS_2cNP4z8)
+
+### [Watch this video on YouTube](https://youtu.be/wtS_2cNP4z8)
